@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Your card's code is"
+        android:textColor="@color/mortisDark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/gotCardCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Your CardCode"
+        android:textColor="@color/anonDark"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Your card's type is"
+        android:textColor="@color/mortisDark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/gotCardType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Your CardType"
+        android:textColor="@color/anonDark"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Please input your card's name"
+        android:textColor="@color/mortisDark"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/cardname_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/soyoDefault"
+        android:textColor="@color/sakiDefault" />
+
+</LinearLayout>

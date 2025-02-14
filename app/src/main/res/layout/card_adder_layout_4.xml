@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6sp"
+        android:text="Enter card's UID"
+        android:textColor="@color/mortisDark"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/code4_p1"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/soyoDefault"
+            android:gravity="center"
+            android:hint="00"
+            android:textColorHint="@color/anonDefault"
+            android:textColor="@color/anonDark"/>
+
+        <EditText
+            android:id="@+id/code4_p2"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/soyoDefault"
+            android:gravity="center"
+            android:hint="00"
+            android:textColorHint="@color/anonDefault"
+            android:textColor="@color/anonDark"/>
+
+        <EditText
+            android:id="@+id/code4_p3"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/soyoDefault"
+            android:gravity="center"
+            android:hint="00"
+            android:textColorHint="@color/anonDefault"
+            android:textColor="@color/anonDark"/>
+
+        <EditText
+            android:id="@+id/code4_p4"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/soyoDefault"
+            android:gravity="center"
+            android:hint="00"
+            android:textColorHint="@color/anonDefault"
+            android:textColor="@color/anonDark"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6sp"
+        android:text="Enter card's name"
+        android:textColor="@color/mortisDark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/card_name_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="5sp"
+        android:backgroundTint="@color/soyoDefault"
+        android:hint="Your card's name here."
+        android:textColorHint="@color/anonDefault"
+        android:textColor="@color/anonDark"/>
+</LinearLayout>
